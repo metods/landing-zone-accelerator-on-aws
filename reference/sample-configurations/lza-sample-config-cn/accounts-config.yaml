@@ -2,22 +2,22 @@ mandatoryAccounts:
   - name: Management
     description: >-
       The management (primary) account. Do not change the name field for this mandatory account.
-    email: <management-account>@example.com <----- UPDATE EMAIL ADDRESS
+    email: metosmartsingapore@gmail.com
     organizationalUnit: Root
   - name: LogArchive
     description: >-
       The log archive account. Do not change the name field for this mandatory account.
-    email: <log-archive>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: aws-log-archive@metosmart.com
     organizationalUnit: Security
   - name: Audit
     description: >-
       The security audit account (also referred to as the audit account). Do not change the name field for this mandatory account.
-    email: <audit>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: aws-security@metosmart.com
     organizationalUnit: Security
 workloadAccounts:
   - name: SharedServices
     description: The SharedServices account
-    email: <shared-services>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: aws-shared-services@metosmart.com
     organizationalUnit: Infrastructure
   - name: Network
     description: The Network account
